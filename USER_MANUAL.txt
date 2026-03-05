@@ -1,0 +1,176 @@
+Author: Crystalina Opaczewski
+Last Updated: 3/4/2026
+
+
+Artisan Portal User Manual
+
+System Requirements
+
+   Python installed
+   A computer capable of running Python programs
+
+
+Introduction
+
+The Artisan Portal is a program used to manage vendor applications for a craft fair or artisan 
+market. It allows vendors to submit applications and allows coordinators to review those applications, 
+assign booth numbers, and add notes.
+
+Quick Start Guide
+
+   If you want to begin using the program right away, follow these quick steps.
+
+      Step 1 - Open the file named "Artisan Portal GUI.py".
+
+      Step 2 - Run the file using Python.
+
+      Step 3 - The Artisan Portal main menu will appear.
+
+      Step 4 - Choose one of the following options from the menu.
+
+   Submit Application  
+      Allows vendors to apply for the event.
+
+   Check Application Status  
+      Allows vendors to check whether their application has been approved.
+
+   Coordinator Review  
+      Allows event coordinators to review and manage vendor applications.
+
+   Export Vendor Data  
+      Exports vendor information to a spreadsheet file.
+
+   Exit  
+      Closes the program.
+
+
+Starting the Program
+
+   Step 1 - Locate the file named "Artisan Portal GUI.py".
+
+   Step 2 - Run the file using Python.
+
+   Step 3 - The main menu window will appear.
+
+
+Main Menu Options
+
+
+Submit Application
+
+   This option allows a vendor to submit a new application.
+
+      Steps to submit an application
+
+         Step 1 - Click the "Submit Application" button.
+
+         Step 2 - Enter the following information:
+
+            Vendor Name  
+            Email Address  
+            Type of Craft
+
+         Step 3 - Click the "Submit Application" button.
+
+   If all information is entered correctly, the system will create a Vendor ID and display it. 
+   The Vendor ID should be saved because it may be needed later to check application status.
+
+
+Check Application Status
+
+   This option allows vendors to check the status of their application.
+
+      Steps to check application status
+
+         Step 1 - Click the "Check Application Status" button.
+
+         Step 2 - Enter either the Vendor ID or the Email address used during the application.
+
+         Step 3 - Click the "Check Status" button.
+
+      The system will display the following information:
+
+         Vendor Name  
+         Craft Type  
+         Application Status  
+         Booth Number (if assigned)
+
+
+Coordinator Review
+
+   This section is used by event coordinators to manage vendor applications.
+
+      Steps to review vendors
+
+         Step 1 - Click the "Coordinator Review" button.
+
+         Step 2 - A list of vendors will appear.
+
+         Step 3 - Select a vendor from the list.
+
+
+Available Coordinator Actions
+
+   Approve Vendor  
+      Marks the vendor as approved.
+
+   Decline Vendor  
+      Marks the vendor as declined.
+
+   Assign Booth  
+      Enter a booth number and assign it to the selected vendor. The vendor must be approved before 
+      a booth can be assigned.
+
+   Notes  
+      Allows the coordinator to add or edit notes related to the vendor.
+
+
+Export Vendor Data
+
+   This option allows the user to export all vendor records to a CSV file.
+
+      Steps to export vendor data
+
+         Step 1 - Click the "Export Vendor Data" button.
+
+         Step 2 - Choose a location on your computer where the file should be saved.
+
+         Step 3 - Enter a file name.
+
+         Step 4 - Click Save.
+
+   The exported file can be opened in spreadsheet programs such as Microsoft Excel.
+
+
+Exit
+
+Click the "Exit" button to close the program.
+
+
+Troubleshooting
+
+   If the program does not open  
+   Make sure Python is installed on the computer and that the file "Artisan Portal GUI.py" is being 
+   opened using Python.
+
+      If nothing happens when opening the program
+      Right-click the file "Artisan Portal GUI.py", select "Open With", and choose Python.
+
+   If an application cannot be submitted  
+   Make sure all fields are filled in and that the email address is entered in a valid format.
+
+   If vendor data does not appear  
+   Make sure the file "artisan_portal_data.csv" is located in the same folder as the program.
+
+   If exporting vendor data fails  
+   Make sure the CSV file you are exporting to is not already open in Excel or another spreadsheet program.
+
+
+Important Notes
+
+Vendor data is automatically saved in the file artisan_portal_data.csv.
+
+Do not delete this file unless you want to remove all saved vendor information.
+
+
+End of User Manual

@@ -1,0 +1,9 @@
+VENDOR_ID,VENDOR_NAME,EMAIL,CRAFT_TYPE,STATUS,BOOTH_NUMBER,NOTES
+1001,Charles,charles@test.com,woodworking,Approved,33,
+1002,Lisa,lisa@noemail.com,crochet,Approved,22,
+1003,Topper,Topper@email.com,quilting,Pending,,
+1004,Kimberly,kimberly@noemail.com,Baking,Declined,,"Declined due to lack of payment information. If she calls
+with the information we will approve her application and 
+assign her a booth number."
+1005,Racheal,Racheal@noemail.com,Painting,Approved,,
+1006,Samwise,LOTR@Mordor.com,jewlery,Pending,,
